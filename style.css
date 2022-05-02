@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.orange-btn {
+    background: hsl(14, 100%, 60%);
+    border-radius: 10px;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+}
+
+
+.text-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section .time-text {
+    width: 95%;
+}
+.time-section img {
+    width: 100%;
+}
+
+.light-grey {
+    color: #939191;
+}
+
+#quote-section {
+    background: #E2E6E9;
+}
+
+#quote-section .left-section, #quote-section .right-form-section{
+    width: 45%;
+}
+
+#quote-section ul {
+    list-style: none;
+}
+
+#quote-section ul li {
+    margin-bottom: 20px;
+}
+
+#quote-section .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+}
+
+#quote-section .left-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+}
+
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+
+
+#quote-section .left-section .text-box {
+    width: 50%;
+}
+
+
+
+h2 {
+    font-size: 20px;
+
+}
+
+.text-follow h5 {
+    font-size: 32px;
+}
+
+.follow-section p {
+    font-size: 16px;
+}
+
+#follow-section {
+    padding: 80px 0;
+}
+
+#follow-section .quote-follow {
+    margin-top: 50px;
+    
+}
+
+
+#follow-section .left-follow, #follow-section .right-follow {
+    width: 45%;
+}
+
+#follow-section ul {
+    list-style: none;
+}
+
+
+#follow-section .left-follow h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#follow-section .image-box {
+    width: 20%;
+    margin-right: 20px;
+    margin-bottom: 45px;
+}
+
+#follow-section .right-follow p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.dotted-line {
+    border-left: 2px dotted #FF6433;
+    height: 50px;
+    margin-left: 7%;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+/* Section on  what we Offer*/
+
+.offer-section {
+    background-color: whitesmoke;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 50px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 75px;
+}
+
+.flex-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column 4 4;
+    width: 80%;
+    margin: auto;
+}
+
+
+.flex-box {
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border: 0.1px solid  silver;
+
+}
+
+
+.flex-box:hover {
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    background-color: #FF6433;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    
+}
+
+.flex-box .flex-orange:hover:focus {
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    background-color: #FF6433;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.flex-box p {
+    padding-top: 5px;
+    
+}
+
+.link-offer {
+    margin: auto;
+    width: 62%;
+    text-align: end;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.flex-box a {
+    text-decoration: none;
+    color: #000;
+}
+
+.link-offer a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    
+}
+
+/* Section on get services */
+
+.flex-get-services {
+    display: flex;
+    background-color: whitesmoke;
+    
+}
+
+
+.flex-services-background .img1 {
+    background-image: url(https://i.ibb.co/Z64HjXv/Image-1.png);
+    display: flex;
+    height: 50vh;
+    width: 50%;
+    background-size: cover;
+    position: relative;
+    height: 50vh;
+}
+
+.flex-services-background .img2 {
+    background-image: url(https://i.ibb.co/7J7Hftp/2.png);
+    display: flex;
+    height: 50vh;
+    width: 50%;
+    background-size: cover;
+    height: 50vh;
+    
+}
+
+.flex-get-services .text-get {
+    background: #FF6433;
+    position: absolute;
+    height: 50vh;
+    top: 0;
+    bottom: 0;
+    left: 33%;
+    right: -10%;
+    padding: 20px;
+}
+
+.text-get h3{
+    font-size: 25px;
+    margin-top: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+.text-get button {
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 40px;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.text-get a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+/* Design on experience*/
+.section-experience {
+    display: flex;
+    background-color:whitesmoke;
+    position: relative;
+}
+
+.section-experience h2 {
+    font-size: 40px;
+    padding: 32px 73px 0px;
+    color: #661CE7;
+    margin-right: 50px;
+}
+
+.section-experience p {
+    font-size: 18px;
+    padding: 2opx;
+    margin-right: 18px;
+    text-align: center;
+    font-weight: 600 bold;
+}
+
+/* section on product brand */
+
+.section-brand .text-brand {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700 bold;
+    padding: 41px 20px 20px;
+}
+
+.flex-serve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column 5 5;
+    width: 70%;
+    margin: auto;
+}
+
+.flex-brand1 {
+    display: flex;
+
+}
+
+.flex-brand2 {
+    display: flex;
+}
+
+.flex-icon{
+    padding: 1%;
+}
